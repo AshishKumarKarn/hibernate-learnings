@@ -23,7 +23,6 @@ public class App {
             student.setAbout("Another new diligent student.");
             currentSession.persist(standard);
             currentSession.persist(student);
-//            currentSession.
 
             System.out.printf("Standard Details: %s, %s, %s, %s \n",
                     standard.getId(),
