@@ -21,7 +21,7 @@ public class Standard {
     private String name;
     private String section;
 
-    @OneToMany(mappedBy = "standard", fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "standard", fetch = FetchType.LAZY)
     private List<Student> students = new ArrayList<>();
 
     public Standard() {
